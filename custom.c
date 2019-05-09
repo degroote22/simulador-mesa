@@ -1,7 +1,6 @@
 // custom code
 
 #define _MAX 12
-#define STEP 15
 
 int max = _MAX;
 int step = 0;
@@ -26,6 +25,7 @@ void _light(int i, int j)
 
 void effect1()
 {
+    // restart
     if (max == 0)
     {
         reset();
@@ -36,6 +36,7 @@ void effect1()
         g = 50;
         b = 50;
     }
+
     // down
     if (step == 0)
     {
@@ -67,6 +68,7 @@ void effect1()
         }
     }
 
+    // up
     if (step == 2)
     {
 
@@ -82,6 +84,7 @@ void effect1()
         }
     }
 
+    // left
     if (step == 3)
     {
 

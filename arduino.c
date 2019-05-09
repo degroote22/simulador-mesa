@@ -57,6 +57,7 @@ void reset()
 }
 
 // custom code
+// PODERIA SER SÓ INCLUÍDO ASSIM!!!
 // #include "custom.c"
 
 #define _MAX 12
