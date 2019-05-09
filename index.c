@@ -10,5 +10,5 @@ extern void reset();
 
 int main(int argc, char **argv)
 {
-    emscripten_set_main_loop(loop, 60, 1);
+    emscripten_set_main_loop(loop, 500, 1);
 }
